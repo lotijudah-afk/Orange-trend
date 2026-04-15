@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ny">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adeh Nalson Music Official - Stream and download the latest hits and shop exclusive streetwear collections.">
+    <meta name="keywords" content="Adeh Nalson Music, Adeh Nalson, Malawi Music, Download Mp3, Streetwear, Fashion">
+    <title>Adeh Nalson Music | Official Website</title>
+    
+    <style>
+        :root {
+            --gold: #ffd700;
+            --pink: #ff69b4;
+            --black: #050505;
+            --gray: #1a1a1a;
+            --white: #ffffff;
+        }
+
+        body {
+            background-color: var(--black);
+            color: var(--white);
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(to right, #000, #222);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .brand-name {
+            font-size: 28px;
+            font-weight: 900;
+            color: var(--gold);
+            letter-spacing: 2px;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        /* Featured Section */
+        .featured {
+            padding: 40px 20px;
+            text-align: center;
+            background: url('hero-bg.jpg') center/cover;
+        }
+
+        .highlight-text {
+            color: var(--pink);
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Music Player Box */
+        .content-card {
+            background: var(--gray);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            max-width: 250px;
+            margin: 15px auto;
+            padding: 12px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .btn-gold { background: var(--gold); color: black; }
+        .btn-pink { border: 2px solid var(--pink); color: var(--pink); }
+
+        /* Gallery Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background: #111;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+
+        .grid-item img { width: 100%; height: auto; display: block; }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            font-size: 11px;
+            color: #777;
+            background: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="brand-name">Adeh Nalson Music</h1>
+        <p style="font-size: 12px; margin: 5px 0 0; color: var(--white);">OFFICIAL BRAND & SOUND</p>
+    </header>
+
+    <section class="featured">
+        <p class="highlight-text">NEW MUSIC ALERT</p>
+        <h2 style="margin: 10px 0;">Stream "I'm Out"</h2>
+        <div class="content-card">
+            <audio controls style="width: 100%;">
+                <source src="Adeh_Nalson_Im_Out.mp3" type="audio/mpeg">
+            </audio>
+            <a href="Adeh_Nalson_Im_Out.mp3" download class="btn btn-gold">DOWNLOAD MP3</a>
+        </div>
+    </section>
+
+    <section>
+        <h3 style="text-align: center; border-bottom: 1px solid var(--gray); padding-bottom: 10px; margin: 0 20px;">Fashion Lookbook</h3>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="yellow-look.jpg" alt="Adeh Nalson Style">
+                <p style="font-size: 11px; padding: 5px;">Yellow Puffer Jacket</p>
+            </div>
+            <div class="grid-item">
+                <img src="pink-jersey.jpg" alt="A'bale Wear">
+                <p style="font-size: 11px; padding: 5px;">a'ba.lé Pink Kit</p>
+            </div>
+        </div>
+    </section>
+
+    <div style="padding: 20px;">
+        <a href="https://wa.me/YOURNUMBER?text=Hello%20Adeh%20Nalson%20Music" class="btn btn-pink">BOOKINGS / ORDERS</a>
+    </div>
+
+    <footer>
+        &copy; 2026 ADEH NALSON MUSIC. <br>
+        DESIGNED BY Gracious judah.
+    </footer>
+
+</body>
+</html<div class="content-card" style="border-top: 5px solid #000; background: #1a1a1a;">
+    <h3 style="color: #ffd700;">NEW LOOK: CACTUS VIBE</h3>
+    <div style="background: #333; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 10px; margin-bottom: 15px;">
+        <p style="color: #eee; font-size: 12px; text-align: center;">
+            White Cactus Jack Long-Sleeve<br>
+            + Distressed Derty Jeans<br>
+            + Black Jordan 4s
+        </p>
+    </div>
+    <p style="font-size: 13px; color: #ff69b4;">"From the dirt to the gold, vibe n’yofunika."</p>
+    <a href="Adeh_Nalson_Clean_Look.mp3" download class="btn btn-gold">DOWNLOAD NEW VIBE</a>
+</div>
